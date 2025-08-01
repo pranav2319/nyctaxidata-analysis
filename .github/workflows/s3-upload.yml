@@ -23,4 +23,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 cp . s3://bktbktbbkt/ --recursive --exclude ".git/" --exclude ".github/"
+          aws s3 cp . s3://taxi-data-testing1/ --recursive --exclude ".git/" --exclude ".github/"
